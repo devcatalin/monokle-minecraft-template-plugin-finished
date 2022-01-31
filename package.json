@@ -1,0 +1,17 @@
+{
+    "name": "Monokle Minecraft Plugin",
+    "author": "devcatalin",
+    "version": "1.0.0",
+    "description": "This Plugin provides a template for creating Minecraft servers.",
+    "license": "MIT",
+    "repository": "https://github.com/monokle-minecraft-template-plugin",
+    "monoklePlugin": {
+      "id": "com.github.devcatalin.monokle-minecraft-plugin",
+      "modules": [
+        {
+          "type": "template",
+          "path": "minecraft"
+        }
+      ]
+    }
+  }

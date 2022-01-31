@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "required": ["eula"],
+    "properties": {
+        "eula": {
+            "type": "boolean"
+        },
+        "version": {
+            "type": "string",
+            "default": "LATEST",
+            "enum": [
+                "LATEST",
+                "SNAPSHOT"
+            ]
+        },
+        "type": {
+            "type": "string",
+            "default": "VANILLA",
+            "enum": [
+                "VANILLA",
+                "FORGE",
+                "SPIGOT", 
+                "BUKKIT", 
+                "PAPER", 
+                "FTBA", 
+                "SPONGEVANILLA", 
+                "CURSEFORGE"
+            ]
+        },
+        "difficulty": {
+            "type": "string",
+            "default": "easy",
+            "enum": [
+                "easy",
+                "normal",
+                "hard"
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "ops": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "maxPlayers": {
+            "type": "number",
+            "default": 20
+        },
+        "onlineMode": {
+            "type": "boolean",
+            "default": true
+        }
+    }
+}

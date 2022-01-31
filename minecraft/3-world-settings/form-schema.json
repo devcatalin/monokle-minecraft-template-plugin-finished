@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "gameMode": {
+            "type": "string",
+            "default": "survival",
+            "enum": [
+                "survival",
+                "creative",
+                "adventure",
+                "spectator"
+            ]
+        },
+        "pvp": {
+            "type": "boolean",
+            "default": false
+        },
+        "hardcore": {
+            "type": "boolean",
+            "default": "false"
+        },
+        "spawnAnimals": {
+            "type": "boolean",
+            "default": true
+        },
+        "spawnMonsters": {
+            "type": "boolean",
+            "default": true
+        },
+        "spawnNPCs": {
+            "type": "boolean",
+            "default": true
+        },
+        "persistWorlds": {
+            "type": "boolean",
+            "default": true
+        }
+    }
+}
