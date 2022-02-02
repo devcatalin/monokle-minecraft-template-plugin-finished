@@ -1,0 +1,20 @@
+{
+    "gameMode": {
+        "ui:title": "Game Mode"
+    },
+    "difficulty": {
+        "ui:title": "Difficulty"
+    },
+    "pvp": {
+        "ui:title": "Player vs Player"
+    },
+    "spawnAnimals": {
+        "ui:title": "Spawn Animals"
+    },
+    "spawnMonsters": {
+        "ui:title": "Spawn Monsters"
+    },
+    "spawnNPCs": {
+        "ui:title": "Spawn NPCs"
+    }
+}

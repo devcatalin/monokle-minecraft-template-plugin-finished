@@ -3,26 +3,20 @@
   "id": "com.github.devcatalin.monokle-minecraft-plugin.minecraft-server-template",
   "author": "devcatalin",
   "version": "1.0.0",
-  "description": "Configure and create manifest files required to deploy a Minecraft Cerver",
+  "description": "Configure and create manifest files required to deploy a Minecraft Server",
   "type": "helm-chart",
   "forms": [
     {
       "name": "Server Settings",
-      "description": "Define the settings for your server",
+      "description": "Define the server settings.",
       "schema": "1-server-settings/form-schema.json",
       "uiSchema": "1-server-settings/ui-schema.json"
     },
     {
-      "name": "Player Settings",
-      "description": "Define the settings related to players",
-      "schema": "2-player-settings/form-schema.json",
-      "uiSchema": "2-player-settings/ui-schema.json"
-    },
-    {
-      "name": "World Settings",
-      "description": "Define the world settings",
-      "schema": "3-world-settings/form-schema.json",
-      "uiSchema": "3-world-settings/ui-schema.json"
+      "name": "Game Settings",
+      "description": "Define the game settings.",
+      "schema": "2-game-settings/form-schema.json",
+      "uiSchema": "2-game-settings/ui-schema.json"
     }
   ],
   "chartName": "minecraft",

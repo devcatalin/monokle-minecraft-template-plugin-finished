@@ -3,15 +3,9 @@
     "required": ["eula"],
     "properties": {
         "eula": {
-            "type": "boolean"
-        },
-        "version": {
             "type": "string",
-            "default": "LATEST",
-            "enum": [
-                "LATEST",
-                "SNAPSHOT"
-            ]
+            "default": "Decline",
+            "enum": ["Accept", "Decline"]
         },
         "type": {
             "type": "string",
@@ -27,14 +21,18 @@
                 "CURSEFORGE"
             ]
         },
-        "difficulty": {
+        "version": {
             "type": "string",
-            "default": "easy",
-            "enum": [
-                "easy",
-                "normal",
-                "hard"
-            ]
+            "default": "LATEST"
+        },
+        "maxPlayers": {
+            "type": "number",
+            "default": 20
+        },
+        "persistWorlds": {
+            "type": "string",
+            "default": "Enable",
+            "enum": ["Enable", "Disable"]
         }
     }
 }

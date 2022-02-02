@@ -1,0 +1,44 @@
+{
+    "type": "object",
+    "properties": {
+        "gameMode": {
+            "type": "string",
+            "default": "Survival",
+            "enum": [
+                "Survival",
+                "Creative",
+                "Adventure",
+                "Spectator"
+            ]
+        },
+        "difficulty": {
+            "type": "string",
+            "default": "Easy",
+            "enum": [
+                "Easy",
+                "Normal",
+                "Hard"
+            ]
+        },
+        "pvp": {
+            "type": "string",
+            "default": "Enable",
+            "enum": ["Enable", "Disable"]
+        },
+        "spawnAnimals": {
+            "type": "string",
+            "default": "Enable",
+            "enum": ["Enable", "Disable"]
+        },
+        "spawnMonsters": {
+            "type": "string",
+            "default": "Enable",
+            "enum": ["Enable", "Disable"]
+        },
+        "spawnNPCs": {
+            "type": "string",
+            "default": "Enable",
+            "enum": ["Enable", "Disable"]
+        }
+    }
+}
